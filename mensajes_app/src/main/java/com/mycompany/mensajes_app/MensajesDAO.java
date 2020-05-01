@@ -14,7 +14,7 @@ public class MensajesDAO {
     
     
     
-    public static void crearMensajeDB(){
+    public static void crearMensajeDB(Mensajes mensaje){
         
     }
     
@@ -22,11 +22,11 @@ public class MensajesDAO {
         
     }
     
-    public static void borrarMensajeDB(){
+    public static void borrarMensajeDB(int id_mensaje){
         
     }
     
-    public static void atualizarMensajeBD(){
+    public static void atualizarMensajeBD(Mensajes mensaje){
         
     }
     

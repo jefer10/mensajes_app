@@ -21,6 +21,10 @@ public class MensajesService {
         
     }
     
+    public static void editarMensaje(){
+        
+    }
+    
     public static void borrarMensaje(){
         
     }
