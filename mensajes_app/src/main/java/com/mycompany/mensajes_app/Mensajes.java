@@ -16,12 +16,20 @@ public class Mensajes {
     String autor_mensaje;
     String fecha_mensaje;
     
+    /**
+     * constructor por defecto, no devuelve nada
+     */
     public Mensajes(){
         
     }
     
     
-
+    /**
+     * constructor de la clase mensaje
+     * @param mensaje mensaje del objeto
+     * @param autor_mensaje autor del mensaje
+     * @param fecha_mensaje  fecha del mensaje
+     */
     public Mensajes(String mensaje, String autor_mensaje, String fecha_mensaje) {
         this.mensaje = mensaje;
         this.autor_mensaje = autor_mensaje;
